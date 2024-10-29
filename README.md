@@ -5,3 +5,7 @@ Day-1<br>
 -> Used GET and SET transactions.<br>
 -> Printed Hello world.<br>
 -> Used constucter and functions to pass the values.<br>
+
+Day-2<br>
+-> Wrote a smart contract to add or delete an NFT form an account<br>
+-> 
