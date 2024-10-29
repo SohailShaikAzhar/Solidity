@@ -8,4 +8,4 @@ Day-1<br>
 
 Day-2<br>
 -> Wrote a smart contract to add or delete an NFT form an account<br>
--> 
+-> learned data types like uint, int, bytes, address, and bool
