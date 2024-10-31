@@ -6,7 +6,6 @@ contract DataTypes{
     bool public  hey;
     bool public  no = true;
 
-
     // uint can only have +ve numbers not -ve numbers, UINT stands for unsigned integer
     // uint8  //ranges from 0-2**8 - 1 //255
     // uint16 //ranges from 0-2**16 - 1 //65535
@@ -30,7 +29,6 @@ contract DataTypes{
     int public  minInt = type(int).min;
     int public  maxInt = type(int).max;
 
-
     //array
 
     //in solidity, the data types byte represent a sequence of bytes, so genetrally there are 2 types of bytes
@@ -52,4 +50,5 @@ contract DataTypes{
     address public defaultaddress;// 0x0000....000
     int public defaultint;//0
     bytes1 public defaultbytes; //0x0000....000
+
 }

@@ -6,55 +6,63 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_hey",
-						"type": "string"
-					},
+				"inputs": [],
+				"name": "Info_newNumber",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_hey",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "_b",
 						"type": "uint256"
 					}
 				],
-				"name": "addinfo",
+				"name": "get1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "hey",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_aa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_bb",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "get2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "getInfo",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,6 +71,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_hey",
+						"type": "uint256"
+					}
+				],
+				"name": "updateInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -79,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"test/hello.sol": "MyfirstContract"
+			"test/functions.sol": "learn_functions"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -93,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"test/hello.sol": {
-			"keccak256": "0x6a25f9b2a0bf6acb185cffa8ca694dd3c09db0a5cd402c6f71504ffb0c51b070",
+		"test/functions.sol": {
+			"keccak256": "0x2f5eb28ddb10f55c4acedb254521efdf2854ac4db21245a2f2d1039b4d91c7e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://77ada954ddd248d8a569460365c629ecbbb63f523112324dd8095ff77b650b77",
-				"dweb:/ipfs/Qma1UuSVuPEuqyE87faBTBTw3qZyJbyBwGEJAoHZ96aDuV"
+				"bzz-raw://e57c9a149a728eeb9feff37796e0969511506e969cd68a5f840e9bc761bfb66d",
+				"dweb:/ipfs/QmNydmpnc8DdM9ia1ZDcEyqFXjTohgpjjHNrmqrYG1MuXJ"
 			]
 		}
 	},
